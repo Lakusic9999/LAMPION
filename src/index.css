@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'LampionFont';
+  src: url('/fonts/Macondo-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'LoraFont';
+  src: url('/fonts/Lora-VariableFont_wght.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+body{
+    font-family: 'LoraFont';
+}
+
+
+/* "stylish ceiling lamp" (https://skfb.ly/ooSsN) by BlackCube is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/). */
